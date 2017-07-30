@@ -68,12 +68,20 @@
         <Button
             android:id="@+id/button4"
             android:layout_width="180dp"
-            android:layout_height="180dp"
+            android:layout_height="113dp"
             android:layout_margin="10dp"
             android:background="@android:color/holo_orange_dark"
             android:text="Michelle's Attendance/ Lunch"
             android:textAllCaps="false"
             android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Michelle's Grades"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/button3"
@@ -84,14 +92,6 @@
             android:background="@android:color/holo_orange_dark"
             android:padding="@dimen/fab_margin"
             android:text="Michelle's Services/ Extracurriculars"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:background="@android:color/holo_orange_dark"
-            android:text="Michelle's Grades"
             android:textAllCaps="false" />
 
     </LinearLayout>
